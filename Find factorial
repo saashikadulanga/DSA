@@ -1,0 +1,25 @@
+package findfactorial;
+
+/**
+ * @author X250
+ */
+public class FindFactorial {
+
+    // Method to find the factorial
+    public static int factorial(int n) {
+        if (n == 1) {
+            return 1; // Base case
+        } else {
+            return n * factorial(n - 1); // Recursive case
+        }
+    }
+
+    public static void main(String[] args) {
+        // Call the factorial method
+        int result = factorial(10);
+        System.out.println("Factorial is " + result);
+        
+              
+              
+    }
+}
